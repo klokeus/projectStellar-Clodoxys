@@ -41,25 +41,25 @@ const conditionIncrease = 10;
 const Scale = 3.5;
 //objects/elements
 let player=new Image();
-player.src="/assets/playerdown.png";
+player.src="playerdown.png";
 
 let researchStation=new Image();
-researchStation.src="/assets/researchtable.png";
+researchStation.src="researchtable.png";
 const researchStationX = c.width / 2 - 200;
 const researchStationY = c.height / 2 - 100;
 
 let water=new Image();
-water.src="/assets/water.png";
+water.src="water.png";
 const waterX = 100;
 const waterY = 100;
 
 let garden=new Image();
-garden.src="/assets/garden.png";
+garden.src="garden.png";
 const gardenX = c.width - 250;
 const gardenY = 150;
 
 let bed=new Image();
-bed.src="/assets/bed.png";
+bed.src="bed.png";
 const bedX = 700;
 const bedY = 600;     
 //funcs
@@ -94,25 +94,25 @@ function movement(event){
         case "w":
             if(py > 0 && moveState){
                 py-=speed;
-                player.src="/assets/playerup.png"
+                player.src="playerup.png"
             }
             break;
         case "a":
             if(px > 0 && moveState){
                 px-=speed;
-                player.src="/assets/playerleft.png"
+                player.src="playerleft.png"
             }
             break;
         case "s":
             if(py < c.height - player.height && moveState){
                 py+=speed;
-                player.src="/assets/playerdown.png"
+                player.src="playerdown.png"
             }
             break;
         case "d":
             if(px < c.width - player.width && moveState){
                 px+=speed;
-                player.src="/assets/playerright.png"
+                player.src="playerright.png"
             }
             break;
         //interact
