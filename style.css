@@ -6,11 +6,4 @@ body {
     image-rendering: pixelated;
 }#myCanvas{
     display: block;
- 
-    border: 2px solid red;
-}
-
-.navbar-element{
-    list-style-type: none;
-    float: left;
 }
