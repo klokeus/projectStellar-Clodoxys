@@ -41,25 +41,25 @@ const conditionIncrease = 10;
 const Scale = 3.5;
 //objects/elements
 let player=new Image();
-player.src="playerdown.png";
+player.src="https://cdn.discordapp.com/attachments/1017587666046435388/1512955801201807460/playerdown.png?ex=6a25f964&is=6a24a7e4&hm=a9e5732785c3477004c734cbb653305f41ab474069d4ef2f16ab84f201bc3514&";
 
 let researchStation=new Image();
-researchStation.src="researchtable.png";
+researchStation.src="https://cdn.discordapp.com/attachments/1017587666046435388/1512938386741137584/interactables-1.png_3.png?ex=6a25e92c&is=6a2497ac&hm=c05fd6186a7e047f3ea4ef49794e59014061f2397773cd51fe869922d01ff69e";
 const researchStationX = c.width / 2 - 200;
 const researchStationY = c.height / 2 - 100;
 
 let water=new Image();
-water.src="water.png";
+water.src="https://cdn.discordapp.com/attachments/1017587666046435388/1512911784544043090/water.png?ex=6a25d065&is=6a247ee5&hm=896f5bc9c82e42a37e5b5e7ff5ba7a32754dbae9399b1b691b93c2e1d5d3293d&";
 const waterX = 100;
 const waterY = 100;
 
 let garden=new Image();
-garden.src="garden.png";
+garden.src="https://cdn.discordapp.com/attachments/1017587666046435388/1512911784825323591/garden.png?ex=6a25d066&is=6a247ee6&hm=35ea1b1134064ea8354cd561ccc73584f3d8acfa5a8d6254c9f83d6a3d9f388a&";
 const gardenX = c.width - 250;
 const gardenY = 150;
 
 let bed=new Image();
-bed.src="bed.png";
+bed.src="https://cdn.discordapp.com/attachments/1017587666046435388/1512911784053571724/bed.png?ex=6a25d065&is=6a247ee5&hm=f1cfe7b1113829ae1fadc0b9f1ded8e852f819d49d010f15a420ce0d998831fa&";
 const bedX = 700;
 const bedY = 600;     
 //funcs
@@ -94,25 +94,25 @@ function movement(event){
         case "w":
             if(py > 0 && moveState){
                 py-=speed;
-                player.src="playerup.png"
+                player.src="https://cdn.discordapp.com/attachments/1017587666046435388/1512955802548174909/playerup.png?ex=6a25f964&is=6a24a7e4&hm=4ee249853bfb446472dd12315a26a1d721c22802c4b01040580f068b466b9043&"
             }
             break;
         case "a":
             if(px > 0 && moveState){
                 px-=speed;
-                player.src="playerleft.png"
+                player.src="https://cdn.discordapp.com/attachments/1017587666046435388/1512955801692803142/playerleft.png?ex=6a25f964&is=6a24a7e4&hm=9f9497f5786373d402b14e87441a73bd9ec9a12755ea668508cbabeeb89e1875&"
             }
             break;
         case "s":
             if(py < c.height - player.height && moveState){
                 py+=speed;
-                player.src="playerdown.png"
+                player.src="https://cdn.discordapp.com/attachments/1017587666046435388/1512955801201807460/playerdown.png?ex=6a25f964&is=6a24a7e4&hm=a9e5732785c3477004c734cbb653305f41ab474069d4ef2f16ab84f201bc3514&"
             }
             break;
         case "d":
             if(px < c.width - player.width && moveState){
                 px+=speed;
-                player.src="playerright.png"
+                player.src="https://cdn.discordapp.com/attachments/1017587666046435388/1512955802103582740/playerright.png?ex=6a25f964&is=6a24a7e4&hm=0b438f7221c944739c74469cee02570ff2926a3e5cd571a66ddc2d5dfc0bf97d&"
             }
             break;
         //interact
