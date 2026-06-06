@@ -1,7 +1,7 @@
 body {
     margin: 0 !important;
     padding: 0 !important;
-    background-image: url('/assets/background.png');
+    background-image: url('https://cdn.discordapp.com/attachments/1017587666046435388/1512955802984513646/background.png?ex=6a25f964&is=6a24a7e4&hm=ee28c9735c4b3f38e57fa1ad48f8d26e48d5dcc031ebdf002d39f2598b2223d8&');
     background-size: cover;
     image-rendering: pixelated;
 }#myCanvas{
